@@ -1,6 +1,6 @@
 ---
 description: Creates a feature branch from 'main', cherry-picks one or more commits provided by the user, pushes the branch, and raises a pull request to 'main'. Branch naming follows the 'feat/scr-0-cherry-pick-<dd-mm-yyyy>' convention.
-tools: [vscode/askQuestions, execute/getTerminalOutput, execute/runInTerminal]
+tools: [execute/runInTerminal, execute/getTerminalOutput, vscode/askQuestions]
 ---
 
 ## User Input
