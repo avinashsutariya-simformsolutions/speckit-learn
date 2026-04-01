@@ -36,7 +36,7 @@ no node_modules, no bundler, no build step, no CSS frameworks (Tailwind, Bootstr
 and no JavaScript frameworks (React, Vue, Angular, etc.) are permitted. The only
 permitted external resource is one optional web font (single font, single weight).
 Implementation MUST use vanilla HTML5, CSS3 with custom properties, and ES6+
-JavaScript exclusively.
+JavaScript exclusively. No modular UI libraries used.
 
 **Rationale**: The project's core value proposition is zero-installation, browser-native
 operation. Any build tooling or third-party dependency introduces installation overhead,
